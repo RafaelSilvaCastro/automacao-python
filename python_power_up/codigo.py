@@ -44,7 +44,7 @@ time.sleep(3) # garantia para que a proxima pagina abre
 # pip install pandas numpy openpyxl
 import pandas as pd #apelido para a biblioteca
 
-tabela = pd.read_csv("python_hashtag/python_power_up/produtos.csv")
+tabela = pd.read_csv("python_power_up/produtos.csv")
 
 # print(tabela)
 

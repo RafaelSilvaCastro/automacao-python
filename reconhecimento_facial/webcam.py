@@ -8,7 +8,7 @@ import cv2
 camera = cv2.VideoCapture(0)
 
 # carregar o arquivo treinado para detectar faces
-cascadeFace = cv2.CascadeClassifier("python_senai/05/aula1105-webcam/haarcascade_frontalface_default.xml")
+cascadeFace = cv2.CascadeClassifier("reconhecimento_facial/haarcascade_frontalface_default.xml")
 
 # loop para percorrer frame a frame, ou imagem por imagem
 while True:
